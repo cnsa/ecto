@@ -40,7 +40,7 @@ defmodule Ecto.Mixfile do
      {:decimal, "~> 1.0"},
      {:postgrex, "~> 0.9.1", optional: true},
      {:mariaex, "~> 0.4.1", optional: true},
-     {:poison, "~> 1.0", optional: true},
+     {:poison, "~> 1.0 or ~> 2.0", optional: true},
      {:ex_doc, "~> 0.10", only: :docs},
      {:earmark, "~> 0.1", only: :docs},
      {:inch_ex, only: :docs}]
